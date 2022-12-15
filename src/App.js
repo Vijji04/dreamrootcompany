@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <Rectangle />
       <MainCard />
-      <button className='w-80 h-8 font-Quicksand text-xs p-2 px-2 pt-2 text-black bg-[#EDEDED] rounded-full baseline drop-shadow-lg'>Test</button>
+      <button className='w-80 h-8 font-Quicksand text-xs p-2 px-2 pt-2 text-black bg-[#EDEDED] rounded-full baseline drop-shadow-lg'>Back</button>
     </div>
   );
 }

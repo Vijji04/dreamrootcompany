@@ -7,7 +7,7 @@ function MainCard() {
     <div className='container mx-auto space-y-6'>
         {cardData.map((card) => {
                     return (
-        <div className='flex flex-col bg-[#F6F6F6] items-center justify-center space-y-6 p-4 rounded-lg'>
+        <div className='flex flex-col bg-[#F6F6F6] items-center justify-center space-y-6 p-3 mx-1 rounded-lg'>
             <div>
                 <TopButtons />
             </div>
