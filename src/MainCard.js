@@ -16,7 +16,7 @@ function MainCard() {
                     return ( */}
                         
                        <div className='flex space-x-4'>
-                        <img src={card.img}></img>
+                        <img src={card.img} style={{height:"84px", width:"84px"}}></img>
                             <div className='space-y-1'>
                             <h1 className='font-Quicksand text-sm'>{card.date}</h1>
                             <h1 className='font-Quicksand text-sm text-[#E97000]'>{card.appoint}</h1>
